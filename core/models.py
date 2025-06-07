@@ -4,7 +4,7 @@ import uuid
 from django.db import models
 from django.utils.text import slugify
 
-from social_media_api.settings import AUTH_USER_MODEL
+from social_media_api.settings.base import AUTH_USER_MODEL
 
 
 def create_custom_path(instance, filename, path_prefix):

@@ -25,7 +25,7 @@ from drf_spectacular.views import (
     SpectacularRedocView,
 )
 
-from social_media_api import settings
+from social_media_api.settings import base as settings
 
 urlpatterns = (
     [
